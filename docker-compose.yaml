@@ -1,7 +1,7 @@
 version: '3'
 services:
   drone-server:
-    image: "drone/drone:latest"
+    image: "drone/drone:1.6.5"
     container_name: drone-server
     ports:
     - "8888:80"
@@ -17,8 +17,6 @@ services:
     - DRONE_DATABASE_DATASOURCE=postgres://admin:admin123@pg:5432/dronedb?sslmode=disable
     depends_on: 
     - pg
-    environment: 
-    - CONFIG_NAME=app-container
   pg:
     image: "postgres:10.14-alpine"
     volumes: 
