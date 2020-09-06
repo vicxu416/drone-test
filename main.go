@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Print("test")
+	fmt.Println("test")
 }
