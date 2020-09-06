@@ -3,5 +3,5 @@ package main
 import "testing"
 
 func TestHello(t *testing.T) {
-	t.Log("hello123")
+	t.Log("hello1234")
 }
