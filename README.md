@@ -1,1 +1,1 @@
-[![Build Status](http://b9be7cfc85ee.ngrok.io/api/badges/vicxu416/drone-test/status.svg)](http://b9be7cfc85ee.ngrok.io/vicxu416/drone-test)
+[![Build Status](http://7983c17ec0fb.ngrok.io/api/badges/vicxu416/drone-test/status.svg)](http://7983c17ec0fb.ngrok.io/vicxu416/drone-test)
